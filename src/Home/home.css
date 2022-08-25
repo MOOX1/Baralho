@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../public/textura.jpg");
+    background-repeat: no-repeat;
+}
+
+.div-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.titulo-home {
+    bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.button-carts {
+    margin-top:32px;
+    margin-top: 32px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: #13ff13;
+    background-color: #20ff1cf7;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-home {
+    text-align: center;
+    border-top: none;
+    border-left: none ;
+    border-right: none ;
+}
+
